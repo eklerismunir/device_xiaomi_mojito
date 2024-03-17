@@ -255,5 +255,3 @@ CONFIG_ACS := true
 # Inherit from proprietary files
 include vendor/xiaomi/mojito/BoardConfigVendor.mk
 
-# Inherit from proprietary files for Leica Camera
--include vendor/xiaomi/mojito-leicacamera/BoardConfigVendor.mk
