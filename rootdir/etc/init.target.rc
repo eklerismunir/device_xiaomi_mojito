@@ -250,3 +250,6 @@ on property:ro.boot.hwversion=*
 
 # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
+    
+# STOP EATING MY BATTERY
+    stop statsd
